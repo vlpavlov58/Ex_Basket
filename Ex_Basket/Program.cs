@@ -17,7 +17,7 @@ namespace Ex_Basket
 
             foreach (var player in players)
             {
-                Console.WriteLine($"{player.Name}, {player.Choose()}");
+                Console.WriteLine($"{Constants.PlayerNamePrefix}: {player.Name}, {player.Choose()}");
             }
 
 
