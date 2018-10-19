@@ -42,6 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Players\CheaterPlayer.cs" />
+    <Compile Include="Players\PlayerBase.cs" />
+    <Compile Include="Players\OrdinaryPlayer.cs" />
+    <Compile Include="Players\PlayerType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
